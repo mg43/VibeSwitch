@@ -40,6 +40,8 @@ export function useLlama() {
             context: activeContext 
         }));
 
+        console.log("state: ", state);
+
       } catch (e: any) {
         console.error("LLaMA Initialization Failed:", e);
         setState(s => ({ ...s, error: `Init error: ${e.message}` }));

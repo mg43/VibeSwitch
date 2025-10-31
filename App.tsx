@@ -18,6 +18,7 @@ export default function App() {
 
   const appIsFullyReady = isReady && areAssetsLoaded;
 
+
   // --- Loading/Splash Screen ---
   if (!appIsFullyReady) {
     // Note: The GluestackUIProvider is omitted here for the pure splash screen to ensure speed

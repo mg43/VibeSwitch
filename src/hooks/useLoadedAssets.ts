@@ -15,7 +15,7 @@ export function useLoadedAssets() {
       try {
         // Load fonts here
         await Font.loadAsync({
-          'LogoFont': require('../assets/fonts/LogoFont.ttf'),
+          'LogoFont': require('../../assets/fonts/LogoFont.ttf'),
         });
       } catch (e) {
         // Log the error for development, but don't stop the app from running
